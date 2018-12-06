@@ -22,7 +22,14 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-    Answer
+    If I want to make some change but I do not want to change the current 
+    code, so I can make branches to divert from main branch and do
+    whatever I want without effecting the code in the main branch.
+
+    Some of the situations that are helpful to use branches are:
+        - New feature
+        - Experimental
+        - Fix a bug
 
 How do the diagrams help you visualize the branch structure?
 
