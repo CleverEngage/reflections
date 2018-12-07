@@ -33,7 +33,10 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
-    Answer
+    Since each branch points to the its latest commit and each commit
+    points to the parent commit, I can use the command git log which
+    in-turns track back the branch commits until reaches the root.
+    Then I can see where branch start, and know which code it is contain.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
