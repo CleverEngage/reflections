@@ -41,7 +41,14 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-    Answer
+    The result is a new commit that contains the commits of the checked out branch
+    and the other branch. This commit will point to the two parents (commits)
+    that were used in the merge state. If we have conflicts, we should first
+    solve these conflicts before merging.
+
+    We represent the diagram this way, so we can see where the branch
+    created and divert from other branch and where it merged. It is easy
+    to understand and figure out the history of our repository.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
