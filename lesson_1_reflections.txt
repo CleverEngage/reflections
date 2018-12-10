@@ -2,8 +2,8 @@ How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
     If I have two versions of a file and one of them works, I can take the advantage
-    of comparing these files and find the difference in code. The code that differ
-    is the fix, no need to read the codes line by line in both files.
+    of comparing these files and find the difference in the code. The code that differ
+    may point to the bug, no need to read the codes line by line in both files.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
@@ -26,7 +26,7 @@ docs does?
 	    Cons:
 	    	* if I do a logical change and at the same time I found typos, I may face defficulties
 	    	* when forget to commit, and make another logical change, may result of bad commit
-	    	* I may miss the history if I am not careful, e.g. commit too early.
+	    	* I may miss up the git history if I am not careful, e.g. commit too early.
 	In Automaticall save
 		Pros:
 			* The file will be saved periodically or logically
@@ -43,9 +43,9 @@ files in one commit, while others, like Google Docs, treat each file separately?
 
     In programming, the code is seperated in several files in order to make the program
     easy to understand, and the code in one file will depend on one or more files. When 
-    developing an app, one or more will be directly related to each other and it is a good
-    idea to save them in one commit and later we will see all changes that are related to
-    the feature or idea.
+    developing an app, one or more files will be directly related to each other and it is
+	a good idea to save them in one commit, and later we will see all changes that are 
+	related to the feature or idea.
 
 How can you use the commands git log and git diff to view the history of files?
 
