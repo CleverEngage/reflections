@@ -35,9 +35,9 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Git can know if local repository is up-to-date or if there are 
-    new commits in the master branch, and it use it to make a merge 
-    either by fast-forward or by making new commit.
+    When latest of remote stored locally, Git can know if local repository 
+    is up-to-date or if there are new commits in the master branch, and
+    use it to make a merge either by fast-forward or by making new commit.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
