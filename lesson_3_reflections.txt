@@ -61,4 +61,15 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I will use separate branches when I want to make experimental change, make new 
+    feature, fix a bug, etc.
+
+    Benefits:
+        * master branch:
+            - easy to update; by commit or push
+            - no merge conflicts solving
+        * separate branches:
+            - flexibility; do experimental change or new feature and keep original files save
+            - ask for advice or suggestions when collaborating
+            - enhance the quality of the codes; the code will be merged into master when
+            achieve the requirements
